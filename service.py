@@ -32,7 +32,7 @@ set_two = [
 def generate_slug():
     a = random.choice(set_one)
     b = random.choice(set_two)
-    c = random.randint(0,1000)
+    c = random.randint(0,10000)
 
     return '{0}-{1}-{2}'.format(a, b, c)
 
