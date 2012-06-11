@@ -38,8 +38,11 @@ def generate_slug():
 def fresh_slug():
     slug = generate_slug()
 
-    if slug not in table:
-        table[slug] = {}
+
+    s = table[slug]
+
+    if 'taken' not in s:
+        s['taken'] = 1
         return slug
 
     # Recursion.
