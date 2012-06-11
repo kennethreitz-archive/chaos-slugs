@@ -7,7 +7,7 @@ Usage
 -----
 
     $ curl https://chaos-slugs.herokuapp.com/
-    fruity-penguin-7191
+    swell-taco-4011
 
 Powered By
 ----------
