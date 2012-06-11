@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 
 denv = env.prefix('dynamo_')
-table = dynamo.table(denv['table'], (denv['secret_key'], denv['secret_access_key']))
+table = dynamo.table(denv['table'], (denv['access_key'], denv['secret_access_key']))
 
 set_one = [
     'chaos', 'tasty', 'fruity', 'nice', 'swell', 'flying', 'loud', 'wet',
