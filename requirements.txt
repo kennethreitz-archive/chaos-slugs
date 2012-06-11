@@ -1,4 +1,5 @@
 Flask==0.8
+Flask-SSLify==0.1.3
 Jinja2==2.6
 Werkzeug==0.8.3
 boto==2.4.1
