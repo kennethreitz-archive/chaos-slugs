@@ -1,0 +1,1 @@
+web: gunicorn service:app -b "0.0.0.0:$PORT" -w 16 -k gunicorn -t 3 --name chaos-slugs
